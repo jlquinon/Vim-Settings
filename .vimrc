@@ -9,6 +9,7 @@ set nu
 set nowrap
 set noswapfile
 set incsearch
+set backspace=indent,eol,start
 
 " Adds undo directory and enables undofile
 if !isdirectory($HOME."/.vim")
