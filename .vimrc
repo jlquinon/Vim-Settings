@@ -39,3 +39,5 @@ call plug#end()
 
 colorscheme gruvbox
 set background=dark
+
+autocmd BufNewFile *.py 0put =\"#! /usr/bin/env python3\<nl>\"|$
