@@ -34,10 +34,21 @@ let g:rg_command='rg --vimgrep -S'
 " Auto complete
 Plug 'ycm-core/YouCompleteMe'
 
+" Emmet-vim for HTML, CSS
+Plug 'mattn/emmet-vim'
+
 " Init plugin manager
 call plug#end()
 
+" -- GRUVBOX CONFIG --
+"change colorscheme
 colorscheme gruvbox
 set background=dark
 
+" -- EMMET-VIM CONFIG
+"redefine trigger key
+let g:user_emmet_leader_key=','
+
+" -- VIM CONFIG
+"open Python files with header
 autocmd BufNewFile *.py 0put =\"#! /usr/bin/env python3\<nl>\"|$
