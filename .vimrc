@@ -6,7 +6,7 @@ set tabstop=4 softtabstop=4
 set shiftwidth=4
 set smartindent
 set nu
-set nowrap
+"set nowrap
 set noswapfile
 set incsearch
 set backspace=indent,eol,start
